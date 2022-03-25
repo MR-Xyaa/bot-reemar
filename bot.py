@@ -33,15 +33,15 @@ banner = f'''
   {m}╩  {p}┴└─└─┘└┘└─┘└─┘ ┴ '''
 
 ###-------------------------[ Array Data ]-------------------------###
-bantuan = ['reemar -help', '-help', 'help', 'bantuan']
-kumpulan_perintah = ['saya butuh hiburan',
+bantuan = ['reemar -help', '-help', 'help', 'tolong']
+kumpulan_perintah = ['pacarku?',
                      'cuaca [ kota ]',
                      'siapa yang menciptakanmu reemar',
                      'install bahan'
                      ]
 
-kata_orang = ["saya", "kamu", "aku", "dia", "mereka", "anda"]
-kata_kerja = ["hiburan", "butuh", "menciptakanmu", "install"]
+kata_orang = ["AprilliaSuryatimah"]
+kata_kerja = ["pacarku?", "butuh", "menciptakanmu", "install"]
 kata_benda = ["bahan"]
 kata_cuaca  = ["info", "cuaca", "hari", "ini"]
 
@@ -57,7 +57,7 @@ perintah_musik = ["putarkan saya musik",
 perintah_install = ["install bahan", "install"]
 
 ya = ["ya", "yes", "y", "ok"]
-tidak = ["tidak", "no", "enggak", "n", "t"]
+tidak = ["tidak", "no", "gak", "n", "t"]
 
 
 class Front_End():
@@ -121,7 +121,7 @@ class Chat_Respod():
                 print("Perintah Tidak tersedia")
 
     def Pencipta_reemar(self):
-        print("\nSaya diciptakan oleh Orang yang bernama Muhamad Royyani. Dia Hanyalah Seorang anak, yang masih berumur 16 tahun")
+        print("\nSaya diciptakan oleh Orang yang bernama Ibnu Umar Syaid. Dia Hanyalah Seorang anak, yang masih berumur 17 tahun")
 
     def Install_bahan(self):
         os.system("\npkg install termux-api")
