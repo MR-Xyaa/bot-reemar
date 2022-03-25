@@ -33,15 +33,15 @@ banner = f'''
   {m}╩  {p}┴└─└─┘└┘└─┘└─┘ ┴ '''
 
 ###-------------------------[ Array Data ]-------------------------###
-bantuan = ['reemar -help', '-help', 'help', 'tolong']
-kumpulan_perintah = ['pacarku?',
+bantuan = ['reemar -help', '-help', 'help', 'bantuan']
+kumpulan_perintah = ['saya butuh hiburan',
                      'cuaca [ kota ]',
-                     'siapa yang menciptakanmu reemar',
+                     'pacarku sapa',
                      'install bahan'
                      ]
 
-kata_orang = ["AprilliaSuryatimah"]
-kata_kerja = ["pacarku?", "butuh", "menciptakanmu", "install"]
+kata_orang = ["saya", "kamu", "aku", "dia", "mereka", "anda"]
+kata_kerja = ["hiburan", "butuh", "menciptakanmu", "install"]
 kata_benda = ["bahan"]
 kata_cuaca  = ["info", "cuaca", "hari", "ini"]
 
@@ -57,7 +57,7 @@ perintah_musik = ["putarkan saya musik",
 perintah_install = ["install bahan", "install"]
 
 ya = ["ya", "yes", "y", "ok"]
-tidak = ["tidak", "no", "gak", "n", "t"]
+tidak = ["tidak", "no", "enggak", "n", "t"]
 
 
 class Front_End():
@@ -99,7 +99,7 @@ class Chat_Respod():
         if array_exist == 0:
             self.Hibur()
         elif array_exist == 1:
-            self.Pencipta_reemar()
+            self.pacarku_sapa()
         elif array_exist == 2:
             self.Install_bahan()
 
@@ -120,8 +120,8 @@ class Chat_Respod():
             else:
                 print("Perintah Tidak tersedia")
 
-    def Pencipta_reemar(self):
-        print("\nSaya diciptakan oleh Orang yang bernama Ibnu Umar Syaid. Dia Hanyalah Seorang anak, yang masih berumur 17 tahun")
+    def pacarku_sapa(self):
+        print("\nPacarmu Adalah Aprillia Suryatimah.Atau Biasa Dipanggil Aprill KAMPRET Tukang Ngambek Tapi Kamu Sayang Banget Sama Aprill")
 
     def Install_bahan(self):
         os.system("\npkg install termux-api")
