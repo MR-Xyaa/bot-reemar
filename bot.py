@@ -121,7 +121,7 @@ class Chat_Respod():
                 print("Perintah Tidak tersedia")
 
     def pacarku_sapa(self):
-        print("\nPacarmu Adalah Aprillia Suryatimah.Atau Biasa Dipanggil Aprill KAMPRET Tukang Ngambek Tapi Kamu Sayang Banget Sama Aprill")
+        print("\nPacarmu Adalah Aprillia Suryatimah")
 
     def Install_bahan(self):
         os.system("\npkg install termux-api")
